@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="340.814" height="231.416" viewBox="0 0 340.814 231.416">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_35" data-name="Rectangle 35" width="340.814" height="231.416" transform="translate(-10 -5)" fill="none"/>
+    </clipPath>
+    <filter id="Path_430" x="4" y="2.998" width="332.812" height="227.418" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_85" data-name="Group 85" transform="translate(10 5)" clip-path="url(#clip-path)">
+    <g transform="matrix(1, 0, 0, 1, -10, -5)" filter="url(#Path_430)">
+      <path id="Path_430-2" data-name="Path 430" d="M285.652,89.014a49.448,49.448,0,0,0-64.959-45.837,54.554,54.554,0,0,0-103.461-10.2A49.479,49.479,0,0,0,55.495,80,56.388,56.388,0,1,0,77.62,188.62a49.453,49.453,0,0,0,87.873.084,49.463,49.463,0,0,0,90.242-5.4,49.464,49.464,0,1,0,29.918-94.286" transform="translate(10 5)" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="354.682" height="235.416" viewBox="0 0 354.682 235.416">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_33" data-name="Rectangle 33" width="354.682" height="235.416" transform="translate(-14 -5)" fill="none"/>
+    </clipPath>
+    <filter id="Path_428" x="8" y="3" width="337.682" height="227.416" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feFlood flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_81" data-name="Group 81" transform="translate(14 5)">
+    <g id="Group_80" data-name="Group 80" clip-path="url(#clip-path)">
+      <g transform="matrix(1, 0, 0, 1, -14, -5)" filter="url(#Path_428)">
+        <path id="Path_428-2" data-name="Path 428" d="M286.285,78.988c-.488,0-.97.019-1.454.038A49.429,49.429,0,0,0,222,43.812a57.741,57.741,0,0,0-112.074.008,48.931,48.931,0,0,0-63.159,39.1c-.684-.028-1.371-.051-2.06-.051A44.7,44.7,0,1,0,50.4,171.9a46.868,46.868,0,0,0,67.816,26.648,76.017,76.017,0,0,0,99.93-3.879A43.953,43.953,0,0,0,286,157.782v-.008c.091,0,.186.008.281.008a39.4,39.4,0,0,0,0-78.794" transform="translate(14 5)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,1501 @@
+/* ********************************nav toggle******************************************* */
+@media (max-width: 991px) {
+  .navbar-toggler {
+    border: none;
+    background-color: transparent;
+  }
+
+  .navigation .nav-link {
+    font-size: 15px !important;
+  }
+
+  .select-dropdown select {
+    font-size: 15px !important;
+  }
+
+  .navbar-toggler:focus {
+    outline: none;
+    box-shadow: none;
+    border: none;
+  }
+
+  .navbar-collapse {
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(10px);
+  }
+
+  .nav-toggle [class*="bar-"] {
+    background: #063a6b !important;
+    display: block;
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -webkit-transition: 0.2s ease all;
+    transition: 0.2s ease all;
+    border-radius: 8px;
+    height: 2px;
+    width: 40px;
+    position: relative;
+    z-index: 9999999999900000 !important;
+    margin-bottom: 8px;
+  }
+
+  .nav-toggle .bar-bot {
+    margin-bottom: 0;
+  }
+
+  .opened .bar-top {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+    -webkit-transform-origin: 15% 15%;
+    transform-origin: 15% 15%;
+  }
+
+  .opened .bar-mid {
+    opacity: 0;
+  }
+
+  .opened .bar-bot {
+    -webkit-transform: rotate(45deg);
+    transform: rotate(-45deg);
+    -webkit-transform-origin: 15% 95%;
+    transform-origin: 15% 95%;
+  }
+
+  .navbar-collapse {
+    position: fixed;
+    top: 0;
+    background-color: #fff !important;
+    left: 0;
+    padding-left: 15px;
+    padding-top: 35px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    width: 70%;
+    height: 100%;
+    z-index: 10000000000;
+  }
+
+  .navbar-collapse.collapsing {
+    left: -75%;
+    transition: height 0s ease;
+  }
+
+  .navbar-collapse.show {
+    left: 0;
+    transition: left 300ms ease-in-out;
+  }
+
+  .navbar-toggler.collapsed~.navbar-collapse {
+    transition: left 500ms ease-in-out;
+  }
+
+  .select-dropdown select {
+    margin: 8px 20px 20px 0 !important;
+  }
+
+  .signup-modal .modal-dialog {
+    max-width: 100% !important;
+    position: relative;
+  }
+
+  .signup-modal .modal-content {
+    flex-direction: column !important;
+  }
+
+  header {
+    display: none !important;
+  }
+
+  .navigation {
+    padding: 10px 20px !important;
+  }
+}
+
+/* **********************************nav toggle end****************************************** */
+
+/********************************mobile screen************************************************** */
+@media (max-width: 480px) {
+  .signup-form {
+    padding: 20px !important;
+  }
+
+  .section-top-margin {
+    margin-top: 90px !important;
+  }
+
+  .foot-heading {
+    font-size: 30px !important;
+    margin-top: 30px !important;
+    padding-bottom: 10px !important;
+  }
+
+  footer ul li {
+    line-height: 25px !important;
+  }
+
+  .foot-para {
+    line-height: 1.5 !important;
+    font-size: 14px !important;
+  }
+
+  footer a {
+    font-size: 14px !important;
+  }
+
+  .main-content {
+    margin: 15px !important;
+  }
+
+  .navigation {
+    margin: 0px 15px !important;
+  }
+
+  .hero-large-text {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .para {
+    font-size: 14px !important;
+    line-height: 1.5 !important;
+    text-align: center !important;
+  }
+
+  .form-signup {
+    text-align: center !important;
+  }
+
+  .section-space {
+    padding: 20px !important;
+  }
+
+  .form-part {
+    padding-right: 0px !important;
+    padding-top: 0px !important;
+  }
+
+  .inner-contact-form.form-part {
+    padding-right: 40px !important;
+    padding-top: 30px !important;
+  }
+
+  .hero-video-part {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+  }
+
+  .main-heading h1 {
+    font-size: 25px !important;
+    text-align: center !important;
+  }
+
+  .main-heading-side {
+    max-width: 100% !important;
+  }
+
+  .main-heading-side h1 {
+    text-align: center !important;
+    font-size: 25px !important;
+  }
+
+  .small-title {
+    text-align: center !important;
+  }
+
+  .large-title {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .link-btn {
+    font-size: 14px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .whatcando-card-header {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .whatcando-card {
+    padding: 15px 15px 30px !important;
+  }
+
+  .feature-card {
+    text-align: center !important;
+  }
+
+  .feature-card ul li {
+    font-size: 14px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .feature-card img {
+    position: relative;
+    margin-top: -25px !important;
+    margin-right: 10px;
+  }
+
+  .white-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .choose-card-part {
+    padding-top: 30px !important;
+  }
+
+  .choose-card {
+    text-align: center;
+    margin-bottom: 10px !important;
+  }
+
+  .contact-social-form-space {
+    margin-right: 0px !important;
+  }
+
+  .contact-form-part {
+    padding: 30px !important;
+    margin-bottom: 20px;
+  }
+
+  .dot-container {
+    position: absolute;
+    left: 0;
+    padding: 0 !important;
+    overflow: initial !important;
+    height: 0px !important;
+    bottom: 0 !important;
+    background: transparent;
+  }
+
+  .dot-line {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+  }
+
+  .dot {
+    width: 40px !important;
+    height: 40px !important;
+    padding-top: 10px !important;
+  }
+
+  .howwework-section .active::before {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .foot-available {
+    margin-bottom: 20px !important;
+  }
+
+  .foot-social {
+    padding-bottom: 0px !important;
+  }
+
+  .copyright {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+
+  /* inner_pages_start */
+  /* whyeshare.ai_start_start */
+
+  .limities_media_content_padding {
+    padding-top: 10px !important;
+  }
+
+  .limities_big_heading_text {
+    text-align: center;
+    font-size: 25px !important;
+    line-height: 40px !important;
+  }
+
+  .limities_media_para {
+    padding-top: 0px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .limities-img {
+    padding-top: 10px !important;
+  }
+
+  .why-eshare-section {
+    margin-top: 30px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .why_card_row_padding {
+    padding-top: 25px !important;
+  }
+
+  .why-card-right {
+    padding-top: 50px !important;
+  }
+
+  .eShare_Community_section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .eShare_Community_button {
+    padding-top: 10px !important;
+  }
+
+  .join_media_padding {
+    padding-top: 30px !important;
+  }
+
+  /* whyeshare.ai_start_end */
+
+  /* Terms_Service_section_start  */
+
+  .Terms_Service_section {
+    padding-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .teams_heading h1 {
+    font-size: 25px !important;
+  }
+
+  .team_service_text_part h4 {
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+  }
+
+  .team_service_text_part p {
+    font-size: 13px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_small_text p {
+    color: #4c546a !important;
+    font-size: 16px !important;
+    line-height: 1.9;
+  }
+
+  .team_service_list h1 {
+    font-size: 18px !important;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_li_option {
+    font-size: 15px !important;
+  }
+
+  /* cloud_section_start */
+
+  /* cloud_section_end */
+
+  .cloud_section {
+    padding-top: 10px !important;
+  }
+
+  .inner_page_side_main_heading {
+    font-size: 20px !important;
+    line-height: 30px !important;
+  }
+
+  .inner_page_small-title {
+    font-size: 17px !important;
+  }
+
+  .cloud_part_main_img {
+    padding-top: 40px !important;
+  }
+
+  .inner_button {
+    padding-top: 20px !important;
+  }
+
+  /*Management_section */
+  .Management_section {
+    margin-top: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .management_point_part {
+    padding-top: 0px !important;
+  }
+
+  .experience_main_img {
+    margin-top: 50px !important;
+  }
+
+  .media_inner_page_small_heading {
+    padding-top: 30px !important;
+  }
+
+  /*Management_section */
+
+  /*Experience_section */
+
+  .Experience_section {
+    padding-top: 10px !important;
+  }
+
+  /*Experience_section */
+
+  /* eShareaiCollabSuite_section */
+  .eShareaiCollabSuite_section {
+    padding-top: 30px !important;
+  }
+
+  /* eShareaiCollabSuite_section */
+
+  /*  .Taskmanagement_section_start */
+
+  .Taskmanagement_section {
+    margin-top: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .task_management_Part_main_img2 {
+    margin-top: 20px !important;
+  }
+
+  .media_get_heading_padding {
+    padding-top: 30px !important;
+  }
+
+  /*  .Taskmanagement_section_start_end */
+
+  /* Trakmanagement_section_start */
+
+  .Trakmanagement_section {
+    margin-top: 30px !important;
+    padding-bottom: 60px;
+  }
+
+  /* Trakmanagement_section_start_end */
+
+  /* inner_pages_end */
+}
+
+/* *****************************mobile screen end*********************************************** */
+
+/* **********************************ipad screen***************************************************** */
+@media (min-width: 481px) and (max-width: 767px) {
+  .main-content {
+    margin: 30px !important;
+  }
+
+  .section-top-margin {
+    margin-top: 80px !important;
+  }
+
+  .navigation {
+    margin: 0px 30px !important;
+  }
+
+  .signup-form {
+    padding: 25px !important;
+  }
+
+  .hero-video-part {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+  }
+
+  .foot-para {
+    line-height: 1.6 !important;
+    font-size: 15px !important;
+  }
+
+  footer a {
+    font-size: 15px !important;
+  }
+
+  .hero-large-text {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .para {
+    line-height: 1.6 !important;
+    font-size: 15px !important;
+    text-align: center !important;
+  }
+
+  .form-signup {
+    text-align: center !important;
+  }
+
+  .section-space {
+    padding: 30px !important;
+  }
+
+  .form-part {
+    padding-right: 0px !important;
+    padding-top: 10px;
+  }
+
+  .inner-contact-form.form-part {
+    padding-right: 40px !important;
+    padding-top: 30px !important;
+  }
+
+  .hero-video-part {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+  }
+
+  .main-heading h1 {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .main-heading-side {
+    max-width: 100% !important;
+  }
+
+  .main-heading-side h1 {
+    text-align: center !important;
+    font-size: 30px !important;
+  }
+
+  .small-title {
+    text-align: center !important;
+  }
+
+  .large-title {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .link-btn {
+    font-size: 15px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .whatcando-card-header {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .whatcando-card {
+    padding: 25px 25px 40px !important;
+  }
+
+  .feature-card {
+    text-align: center !important;
+  }
+
+  .feature-card ul li {
+    font-size: 15px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .feature-card img {
+    position: relative;
+    margin-top: -25px !important;
+    margin-right: 10px;
+  }
+
+  .white-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .choose-card-part {
+    padding-top: 30px !important;
+  }
+
+  .choose-card {
+    text-align: center;
+    margin-bottom: 15px !important;
+  }
+
+  .contact-social-form-space {
+    margin-right: 0px !important;
+  }
+
+  .contact-form-part {
+    padding: 30px !important;
+    margin-bottom: 20px;
+  }
+
+  .dot-container {
+    position: absolute;
+    left: 0;
+    padding: 0 !important;
+    overflow: initial !important;
+    height: 0px !important;
+    bottom: 0 !important;
+    background: transparent;
+  }
+
+  .dot-line {
+    display: flex !important;
+    justify-content: space-evenly !important;
+    flex-wrap: wrap !important;
+  }
+
+  .dot {
+    width: 40px !important;
+    height: 40px !important;
+    padding-top: 10px !important;
+  }
+
+  .howwework-section .active::before {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .foot-available {
+    margin-bottom: 20px !important;
+  }
+
+  .foot-social {
+    padding-bottom: 0px !important;
+  }
+
+  .copyright {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+
+  /* inner_pages_start */
+
+  /* why_eshare_start_page */
+
+  .limities_media_content_padding {
+    padding-top: 10px !important;
+  }
+
+  .limities_big_heading_text {
+    text-align: center;
+    font-size: 25px !important;
+    line-height: 40px !important;
+  }
+
+  .limities_media_para {
+    padding-top: 0px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .limities-img {
+    padding-top: 10px !important;
+  }
+
+  .why-eshare-section {
+    margin-top: 30px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .why_card_row_padding {
+    padding-top: 25px !important;
+  }
+
+  .why-card-right {
+    padding-top: 50px !important;
+  }
+
+  .eShare_Community_section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .eShare_Community_button {
+    padding-top: 10px !important;
+  }
+
+  .join_media_padding {
+    padding-top: 30px !important;
+  }
+
+  /* whyeshare.ai_start_end */
+
+  /* why_eshare_end_page */
+
+  /* Terms_Service_section_start  */
+
+  .Terms_Service_section {
+    padding-top: 20px !important;
+    margin-bottom: 20px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .teams_heading h1 {
+    font-size: 25px !important;
+  }
+
+  .team_service_text_part h4 {
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+  }
+
+  .team_service_text_part p {
+    font-size: 13px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_small_text p {
+    color: #4c546a !important;
+    font-size: 16px !important;
+    line-height: 1.9;
+  }
+
+  .team_service_list h1 {
+    font-size: 18px !important;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_li_option {
+    font-size: 15px !important;
+  }
+
+  /* cloud_section_start */
+
+  /* cloud_section_end */
+
+  .cloud_section {
+    padding-top: 10px !important;
+  }
+
+  .inner_page_side_main_heading {
+    font-size: 22px !important;
+    line-height: 30px !important;
+  }
+
+  .inner_page_small-title {
+    font-size: 17px !important;
+  }
+
+  .cloud_part_main_img {
+    padding-top: 40px !important;
+  }
+
+  .inner_button {
+    padding-top: 20px !important;
+  }
+
+  /*Management_section */
+  .Management_section {
+    margin-top: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .management_point_part {
+    padding-top: 0px !important;
+  }
+
+  .experience_main_img {
+    margin-top: 50px !important;
+  }
+
+  .media_inner_page_small_heading {
+    padding-top: 30px !important;
+  }
+
+  /*Management_section */
+
+  /*Experience_section */
+
+  .Experience_section {
+    padding-top: 10px !important;
+  }
+
+  /*Experience_section */
+
+  /* eShareaiCollabSuite_section */
+  .eShareaiCollabSuite_section {
+    padding-top: 30px !important;
+  }
+
+  /* eShareaiCollabSuite_section */
+
+  /*  .Taskmanagement_section_start */
+
+  .Taskmanagement_section {
+    margin-top: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .task_management_Part_main_img2 {
+    margin-top: 20px !important;
+  }
+
+  .media_get_heading_padding {
+    padding-top: 30px !important;
+  }
+
+  /*  .Taskmanagement_section_start_end */
+
+  /* Trakmanagement_section_start */
+
+  .Trakmanagement_section {
+    margin-top: 30px !important;
+    padding-bottom: 60px;
+  }
+
+  /* Trakmanagement_section_start_end */
+
+  /* inner_pages_end */
+}
+
+/* **********************************ipad screen end************************************************** */
+
+/* ************************************tablet screen****************************************** */
+@media (min-width: 768px) and (max-width: 991px) {
+  .main-content {
+    margin: 50px !important;
+  }
+
+  .section-top-margin {
+    margin-top: 60px !important;
+  }
+
+  .navigation {
+    margin: 0px 50px !important;
+  }
+
+  .hero-video-part {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+  }
+
+  .signup-form {
+    padding: 30px !important;
+  }
+
+  .foot-para {
+    line-height: 1.6 !important;
+    font-size: 16px !important;
+  }
+
+  footer a {
+    font-size: 16px !important;
+  }
+
+  .hero-large-text {
+    font-size: 40px !important;
+    text-align: center !important;
+  }
+
+  .para {
+    line-height: 1.6 !important;
+    font-size: 16px !important;
+    text-align: center !important;
+  }
+
+  .form-signup {
+    text-align: center !important;
+  }
+
+  .section-space {
+    padding: 40px !important;
+  }
+
+  .form-part {
+    padding-right: 0px !important;
+    padding-top: 10px !important;
+  }
+
+  .inner-contact-form.form-part {
+    padding-right: 40px !important;
+    padding-top: 30px !important;
+  }
+
+  .hero-video-part {
+    margin-top: 30px !important;
+    margin-right: 0px !important;
+  }
+
+  .main-heading h1 {
+    font-size: 40px !important;
+    text-align: center !important;
+  }
+
+  .main-heading-side {
+    max-width: 100% !important;
+  }
+
+  .main-heading-side h1 {
+    text-align: center !important;
+    font-size: 40px !important;
+  }
+
+  .small-title {
+    text-align: center !important;
+  }
+
+  .large-title {
+    font-size: 30px !important;
+    text-align: center !important;
+  }
+
+  .link-btn {
+    font-size: 16px !important;
+    display: flex !important;
+    justify-content: center !important;
+    text-align: center !important;
+  }
+
+  .whatcando-card-header {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .whatcando-card {
+    padding: 30px 30px 50px !important;
+  }
+
+  .feature-card {
+    text-align: center !important;
+  }
+
+  .feature-card ul li {
+    font-size: 16px !important;
+    text-align: center !important;
+    justify-content: center !important;
+  }
+
+  .feature-card img {
+    position: relative;
+    margin-top: -5px !important;
+    margin-right: 10px;
+  }
+
+  .white-btn {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+  .choose-card-part {
+    padding-top: 30px !important;
+  }
+
+  .choose-card {
+    text-align: center;
+    margin-bottom: 15px !important;
+  }
+
+  .contact-social-form-space {
+    margin-right: 0px !important;
+  }
+
+  .contact-form-part {
+    padding: 30px !important;
+    margin-bottom: 20px;
+  }
+
+  .dot-container {
+    position: absolute;
+    right: 5%;
+    top: 30%;
+    background: transparent;
+  }
+
+  .howwework-section .active::before {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .foot-available {
+    margin-bottom: 20px !important;
+  }
+
+  .foot-social {
+    padding-bottom: 0px !important;
+  }
+
+  .copyright {
+    font-size: 13px !important;
+    padding: 10px;
+  }
+
+  /* inner_start */
+
+  /* why_eshare_start_page */
+
+  .limities_media_content_padding {
+    padding-top: 10px !important;
+  }
+
+  .limities_big_heading_text {
+    text-align: center;
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  .limities_media_para {
+    padding-top: 0px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .limities-img {
+    padding-top: 10px !important;
+  }
+
+  .why-eshare-section {
+    margin-top: 30px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .why_card_row_padding {
+    padding-top: 30px !important;
+  }
+
+  .why-card-right {
+    padding-top: 50px !important;
+  }
+
+  .eShare_Community_section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .eShare_Community_button {
+    padding-top: 15px !important;
+  }
+
+  .join_media_padding {
+    padding-top: 30px !important;
+  }
+
+  /* whyeshare.ai_start_end */
+
+  /* terms_satrt */
+  .Terms_Service_section {
+    padding-top: 20px !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .teams_heading h1 {
+    font-size: 30px !important;
+  }
+
+  .team_service_text_part h4 {
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+  }
+
+  .team_service_text_part p {
+    font-size: 16px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_small_text p {
+    color: #4c546a !important;
+    font-size: 16px !important;
+    line-height: 1.9;
+  }
+
+  .team_service_list h1 {
+    font-size: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_li_option {
+    font-size: 16px !important;
+  }
+
+  /* team_page_end */
+
+  /* cloud_section_start */
+
+  /* cloud_section_end */
+
+  .cloud_section {
+    padding-top: 15px !important;
+  }
+
+  .inner_page_side_main_heading {
+    font-size: 23px !important;
+    line-height: 40px !important;
+  }
+
+  .inner_page_small-title {
+    font-size: 17px !important;
+  }
+
+  .cloud_part_main_img {
+    padding-top: 40px !important;
+  }
+
+  .inner_button {
+    padding-top: 20px !important;
+  }
+
+  /*Management_section */
+  .Management_section {
+    margin-top: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .management_point_part {
+    padding-top: 0px !important;
+  }
+
+  .experience_main_img {
+    margin-top: 50px !important;
+  }
+
+  .media_inner_page_small_heading {
+    padding-top: 30px !important;
+  }
+
+  /*Management_section */
+
+  /*Experience_section */
+
+  .Experience_section {
+    padding-top: 10px !important;
+  }
+
+  /*Experience_section */
+
+  /* eShareaiCollabSuite_section */
+  .eShareaiCollabSuite_section {
+    padding-top: 30px !important;
+  }
+
+  /* eShareaiCollabSuite_section */
+
+  /*  .Taskmanagement_section_start */
+
+  .Taskmanagement_section {
+    margin-top: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .task_management_Part_main_img2 {
+    margin-top: 20px !important;
+  }
+
+  .media_get_heading_padding {
+    padding-top: 30px !important;
+  }
+
+  /*  .Taskmanagement_section_start_end */
+
+  /* Trakmanagement_section_start */
+
+  .Trakmanagement_section {
+    margin-top: 30px !important;
+    padding-bottom: 60px;
+  }
+}
+
+/* Trakmanagement_section_start_end */
+
+/* inner_pages_end */
+
+/* inner_pages_end */
+
+/* ***********************************tablet screen end******************************************* */
+
+/* ****************************large screen********************************* */
+@media (min-width: 992px) and (max-width: 1200px) {
+  .hero-large-text {
+    font-size: 40px !important;
+  }
+
+  .hero-video-part {
+    max-width: 100%;
+    position: relative;
+    margin-top: -40px !important;
+  }
+
+  .signup-form {
+    padding: 35px !important;
+  }
+
+  .form-part {
+    padding-right: 0px !important;
+    padding-top: 20px !important;
+  }
+
+  .inner-contact-form.form-part {
+    padding-right: 40px !important;
+    padding-top: 30px !important;
+  }
+
+  .para {
+    font-size: 14px !important;
+  }
+
+  :root {
+    --marquee-height: 10vh !important;
+  }
+
+  .whatcando-card {
+    padding: 15px 15px 30px !important;
+  }
+
+  .small-title {
+    font-size: 16px !important;
+  }
+
+  .feature-card ul li {
+    font-size: 14px !important;
+  }
+
+  .contact-form-part {
+    padding: 15px !important;
+  }
+
+  .howwework-card-body {
+    padding: 0px !important;
+  }
+
+  .dot {
+    margin-bottom: 20px !important;
+  }
+
+  .foot-para {
+    font-size: 14px !important;
+  }
+
+  footer a {
+    font-size: 14px !important;
+  }
+
+  header ul {
+    flex-wrap: wrap !important;
+  }
+
+  header ul li a {
+    font-size: 14px !important;
+  }
+
+  /* inner_start */
+
+  /* why_eshare_start_page */
+
+  .limities_media_content_padding {
+    padding-top: 10px !important;
+  }
+
+  .limities_big_heading_text {
+    font-size: 30px !important;
+    line-height: 40px !important;
+  }
+
+  .limities_media_para {
+    padding-top: 0px !important;
+    font-size: 16px !important;
+    line-height: 1 !important;
+  }
+
+  .limities-img {
+    padding-top: 80px !important;
+  }
+
+  .why-eshare-section {
+    margin-top: 30px !important;
+    padding-bottom: 45px !important;
+  }
+
+  .why_card_row_padding {
+    padding-top: 30px !important;
+  }
+
+  .why-card-right {
+    padding-top: 50px !important;
+  }
+
+  .eShare_Community_section {
+    margin-top: 0px !important;
+    margin-bottom: 0px !important;
+  }
+
+  .eShare_Community_button {
+    padding-top: 100px !important;
+  }
+
+  .join_media_padding {
+    padding-top: 20px !important;
+  }
+
+  /* whyeshare.ai_start_end */
+  /* terms_satrt */
+  .Terms_Service_section {
+    padding-top: 20px !important;
+    margin-bottom: 30px !important;
+    padding-bottom: 20px !important;
+  }
+
+  .teams_heading h1 {
+    font-size: 30px !important;
+  }
+
+  .team_service_text_part h4 {
+    padding-top: 10px;
+    padding-bottom: 10px !important;
+  }
+
+  .team_service_text_part p {
+    font-size: 16px !important;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_small_text p {
+    color: #4c546a !important;
+    font-size: 16px !important;
+    line-height: 1.9;
+  }
+
+  .team_service_list h1 {
+    font-size: 20px !important;
+    padding-top: 10px;
+    padding-bottom: 0px !important;
+  }
+
+  .team_service_li_option {
+    font-size: 16px !important;
+  }
+
+  /* team_page_end */
+
+  /* cloud_section_start */
+
+  /* cloud_section_end */
+
+  .cloud_section {
+    padding-top: 15px !important;
+  }
+
+  .inner_page_side_main_heading {
+    font-size: 23px !important;
+    line-height: 40px !important;
+  }
+
+  .inner_page_small-title {
+    font-size: 17px !important;
+  }
+
+  .cloud_part_main_img {
+    padding-top: 120px !important;
+  }
+
+  .inner_button {
+    padding-top: 20px !important;
+  }
+
+  /*Management_section */
+  .Management_section {
+    margin-top: 30px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .management_point_part {
+    padding-top: 0px !important;
+  }
+
+  .experience_main_img {
+    margin-top: 50px !important;
+  }
+
+  .media_inner_page_small_heading {
+    padding-top: 50px !important;
+  }
+
+  /*Management_section */
+
+  /*Experience_section */
+
+  .Experience_section {
+    padding-top: 10px !important;
+  }
+
+  .experience_main_img {
+    margin-top: 70px !important;
+  }
+
+  /*Experience_section */
+
+  /* eShareaiCollabSuite_section */
+  .eShareaiCollabSuite_section {
+    padding-top: 30px !important;
+  }
+
+  /* eShareaiCollabSuite_section */
+
+  /*  .Taskmanagement_section_start */
+
+  .Taskmanagement_section {
+    margin-top: 30px !important;
+    padding-top: 0px !important;
+    padding-bottom: 40px !important;
+    padding: 30px 20px 30px 20px !important;
+  }
+
+  .task_management_Part_main_img2 {
+    margin-top: 150px !important;
+  }
+
+  .media_get_heading_padding {
+    padding-top: 30px !important;
+  }
+
+  /*  .Taskmanagement_section_start_end */
+
+  /* Trakmanagement_section_start */
+
+  .Trakmanagement_section {
+    margin-top: 30px !important;
+    padding-bottom: 60px;
+  }
+}
+
+/* Trakmanagement_section_start_end */
+
+/* inner_pages_end */
+
+/* inner_pages_end */
+/* inner_pages_end */
+
+/* *************************large screen end************************************* */
+
+
+
+@media (min-width: 1600px) and (max-width:2555px) {
+
+
+  .video-main {
+    width: 65% !important;
+    height: 100% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
+
+
+  /* .cloud-img {
+  width: 70% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+}
+
+.about-img {
+  width: 70% !important;
+  left: 50% !important;
+  transform: translateX(-50%) !important;
+} */
+
+
+}
