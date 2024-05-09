@@ -1014,7 +1014,7 @@ body::-webkit-scrollbar-thumb {
 .howwework-card-body {
   padding: 20px;
   position: absolute;
-  top: 50%;
+  top: 27%;
   transform: translateY(-50%);
 }
 
