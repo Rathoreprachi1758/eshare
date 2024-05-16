@@ -21,7 +21,7 @@ $(document).ready(function () {
       $(".navigation").css("margin", "0px");
       $(".navigation").css("border-radius", "0px");
     } else {
-      $(".navigation").css("margin", "0px 50px");
+      $(".navigation").css("margin", "0px 40px");
       $(".navigation").css("border-radius", "300px");
     }
   });

@@ -216,7 +216,25 @@
           </div>
         </div>
       </nav>
-      <header>
+
+
+      <nav class="navigation2">
+        <ul>
+          <li><a href="#Cloud">Cloud</a></li>
+          <li><a href="#FileSharing">File Sharing</a></li>
+          <li><a href="#Chat">Chat</a></li>
+          <li><a href="#ContentManagement">Content Management</a></li>
+          <li><a href="#EShareaiCollabSuite">eShare.ai CollabSuite</a></li>
+          <li><a href="#FlowchartSolutions">Flowchart Solutions</a></li>
+          <li><a href="#PowerfulDiagrammingTool">Powerful Diagramming Tool</a></li>
+          <li><a href="#TaskManagement">Task Management</a></li>
+          <li><a href="#Calender">Calender</a></li>
+          <li><a href="#Tracking">Tracking</a></li>
+        </ul>
+      </div>
+      </nav>
+      
+      <!-- <header>
         <div class="container-fluid">
           <ul>
             <li><a href="#Cloud">Cloud</a></li>
@@ -234,9 +252,9 @@
             <li><a href="#Tracking">Tracking</a></li>
           </ul>
         </div>
-      </header>
+      </header> -->
 
-      <div class="sections">
+      <!-- <div class="sections"> -->
         <section id="Cloud" class="cloud_section section-top-margin">
           <div class="container-fluid">
             <div class="row">
@@ -531,10 +549,7 @@
             </div>
           </div>
         </section>
-        <section
-          id="ContentManagement"
-          class="Management_section section-top-margin"
-        >
+        <section id="ContentManagement" class="Management_section section-top-margin">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -1071,11 +1086,7 @@
           </div>
         </section>
 
-        <section
-          id="PowerfulDiagrammingTool"
-          class="eShareaiCollabSuite_section"
-       
-        >
+        <section id="PowerfulDiagrammingTool" class="eShareaiCollabSuite_section">
           <div class="container-fluid">
             <div class="row">
               <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
@@ -1746,7 +1757,7 @@
             </p>
           </div>
         </section>
-      </div>
+      <!-- </div> -->
 
       <section class="contact-section mt-60 mb-60">
         <div class="container-fluid">
@@ -3998,6 +4009,31 @@
     <script src="assets/js/script.js"></script>
 
     <script>
+const sections = document.querySelectorAll("section[id]");
+
+window.addEventListener("scroll", navHighlighter);
+
+function navHighlighter() {
+  
+  let scrollY = window.pageYOffset;
+    sections.forEach(current => {
+    const sectionHeight = current.offsetHeight;
+    const sectionTop = current.offsetTop - 100;
+    sectionId = current.getAttribute("id");
+    
+    if (
+      scrollY > sectionTop &&
+      scrollY <= sectionTop + sectionHeight
+    ){
+      document.querySelector(".navigation2 a[href*=" + sectionId + "]").classList.add("active");
+    } else {
+      document.querySelector(".navigation2 a[href*=" + sectionId + "]").classList.remove("active");
+    }
+  });
+}
+    </script>
+    
+    <!-- <script>
       var sections = $("section"),
         nav = $("header"),
         nav_height = nav.outerHeight();
@@ -4014,8 +4050,7 @@
             sections.removeClass("active");
 
             $(this).addClass("active");
-            nav
-              .find('a[href="#' + $(this).attr("id") + '"]')
+            nav.find('a[href="#' + $(this).attr("id") + '"]')
               .addClass("active");
           }
         });
@@ -4029,11 +4064,11 @@
           {
             scrollTop: $(id).offset().top - nav_height,
           },
-          500
+          0
         );
 
         return false;
       });
-    </script>
+    </script> -->
   </body>
 </html>
