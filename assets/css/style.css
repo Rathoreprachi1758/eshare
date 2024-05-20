@@ -418,7 +418,7 @@ body::-webkit-scrollbar-thumb {
 
 .form-part .form-control:focus {
   outline: none;
-  border: 1px solid #022143 !important;
+  border: 1px solid #fff !important;
   box-shadow: none;
 }
 
@@ -490,7 +490,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .continue-with-btn:hover {
-  border: 1px solid #022143 !important;
+  border: 1px solid #Fff !important;
 }
 
 .continue-with-btn-anchor {
