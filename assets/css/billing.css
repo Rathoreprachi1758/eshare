@@ -167,3 +167,10 @@
 .action-icon {
     font-size: 15px;
 }
+
+
+
+.table>tbody>tr:nth-of-type(even)>* {
+    background-color: #f9fafb !important;
+
+}

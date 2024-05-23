@@ -5354,7 +5354,7 @@ textarea::placeholder {
 
 
 
-/* table-matrix-header start */
+/* table-matrix-header start home*/
 .table-matrix-header {
   border-radius: 300px;
   background-color: #fff !important;
@@ -5404,6 +5404,7 @@ textarea::placeholder {
 
 .table-maxtrix-section table tbody tr td:nth-child(2) {
   background-color: rgb(241, 244, 246);
+
 }
 
 .table-maxtrix-section td {
@@ -5451,4 +5452,56 @@ textarea::placeholder {
 }
 
 
-/* table-matrix-header end */
+/* table-matrix-header end home*/
+
+
+
+
+
+/* community_about_satrt */
+
+
+
+.about-section-com {
+
+  /* background-color: #f9fafb; */
+  border-radius: 10px;
+  width: 100%;
+  height: auto;
+  background-color: #Fff;
+  border: 1px solid #f0f3f4;
+
+}
+
+.about-txt-part-com {
+  /* position: absolute;
+  top: 50%;
+  transform: translateY(-50%); */
+  position: relative;
+  text-align: center;
+  padding-bottom: 10px;
+
+}
+
+.about-txt-part-com a {
+  text-decoration: none;
+  color: #063a6b !important;
+}
+
+.about-txt-part-com .white-btn {
+  color: #fff !important;
+}
+
+@media(max-width:991px) {
+  .about-txt-part-com {
+    position: relative !important;
+    top: 0% !important;
+    transform: translateY(0%) !important;
+  }
+}
+
+
+/* community_about_end */
+
+
+/*  */
