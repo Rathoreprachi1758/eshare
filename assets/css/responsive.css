@@ -120,6 +120,75 @@
     padding: 20px !important;
   }
 
+  .pt-30 {
+    padding-top: 10px !important;
+  }
+
+  .pb-30 {
+    padding-bottom: 10px !important;
+  }
+
+  .mt-20 {
+    margin-top: 10px !important;
+  }
+
+  .mt-40 {
+    margin-top: 20px !important;
+  }
+
+  .mb-40 {
+    margin-bottom: 20px !important;
+  }
+
+  .mt-60 {
+    margin-top: 30px !important;
+  }
+
+  .mb-60 {
+    margin-bottom: 30px !important;
+  }
+
+  .mt-80 {
+    margin-top: 30px !important;
+  }
+
+  .mb-80 {
+    margin-bottom: 30px !important;
+  }
+
+  .mb-20 {
+    margin-bottom: 10px !important;
+  }
+
+  .testimonial-section .slider .testimonial-card {
+    height: auto !important;
+    padding: 20px 20px 10px;
+    margin: 0 0px !important;
+  }
+
+  .marquee-heading {
+    font-size: 22px !important;
+
+  }
+
+  .marquee-content li img {
+    max-width: 90px !important;
+    height: 20px !important;
+  }
+
+  .whatcando-section .slider-whatcando .whatcando-card {
+    margin: 0 0px !important;
+  }
+
+
+  .marquee {
+    overflow: hidden !important;
+  }
+
+  .main-section {
+    overflow: hidden !important;
+  }
+
   .section-top-margin {
     margin-top: 90px !important;
   }
@@ -144,21 +213,21 @@
   }
 
   .main-content {
-    margin: 15px !important;
+    margin: 10px !important;
   }
 
   .navigation {
-    margin: 0px 15px !important;
+    margin: 0px 10px !important;
   }
 
   .hero-large-text {
-    font-size: 30px !important;
+    font-size: 23px !important;
     text-align: center !important;
   }
 
   .para {
-    font-size: 14px !important;
-    line-height: 1.5 !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
     text-align: center !important;
   }
 
@@ -167,7 +236,7 @@
   }
 
   .section-space {
-    padding: 20px !important;
+    padding: 15px !important;
   }
 
   .form-part {
@@ -181,13 +250,22 @@
   }
 
   .hero-video-part {
-    margin-top: 30px !important;
+    margin-top: 20px !important;
     margin-right: 0px !important;
   }
 
   .main-heading h1 {
-    font-size: 25px !important;
+    font-size: 22px !important;
     text-align: center !important;
+  }
+
+  .main-heading {
+    margin-bottom: 10px !important;
+  }
+
+  .slideshow-container {
+    margin-top: 10px !important;
+    margin-bottom: 55px !important;
   }
 
   .main-heading-side {
@@ -196,7 +274,7 @@
 
   .main-heading-side h1 {
     text-align: center !important;
-    font-size: 25px !important;
+    font-size: 22px !important;
   }
 
   .small-title {
@@ -204,7 +282,7 @@
   }
 
   .large-title {
-    font-size: 30px !important;
+    font-size: 22px !important;
     text-align: center !important;
   }
 
@@ -223,6 +301,12 @@
   .whatcando-card {
     padding: 15px 15px 30px !important;
   }
+
+  .whatcando-card {
+    height: auto !important;
+    margin-bottom: 10px !important;
+  }
+
 
   .feature-card {
     text-align: center !important;
@@ -246,13 +330,55 @@
   }
 
   .choose-card-part {
-    padding-top: 30px !important;
+    padding-top: 20px !important;
+  }
+
+  .owl-carousel .owl-nav button.owl-prev,
+  .owl-carousel .owl-nav button.owl-next {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    color: #063a6b !important;
+    border: 1px solid #4c546a !important;
+  }
+
+  .swiper-button-next {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    color: #063a6b !important;
+    border: 1px solid #4c546a !important;
+  }
+
+  .swiper-button-prev {
+    background-color: transparent !important;
+    opacity: 1 !important;
+    color: #063a6b !important;
+    border: 1px solid #4c546a !important;
+  }
+
+  .mt-5 {
+    margin-top: 1rem !important;
+  }
+
+  .choose-btn-part {
+    padding-top: 10px !important;
+  }
+
+  .marquee-content li {
+    padding-top: 10px !important;
   }
 
   .choose-card {
+    padding: 15px !important;
     text-align: center;
+    height: auto !important;
     margin-bottom: 10px !important;
   }
+
+  .choose-card button {
+    position: relative !important;
+    margin-bottom: 15px !important;
+  }
+
 
   .contact-social-form-space {
     margin-right: 0px !important;
@@ -264,19 +390,18 @@
   }
 
   .dot-container {
-    position: absolute;
+    position: relative;
     left: 0;
     padding: 0 !important;
     overflow: initial !important;
-    height: 0px !important;
-    bottom: 0 !important;
+    height: auto !important;
+    bottom: 0% !important;
     background: transparent;
   }
 
   .dot-line {
     display: flex !important;
     justify-content: space-evenly !important;
-    flex-wrap: wrap !important;
   }
 
   .dot {
@@ -395,6 +520,11 @@
   /* cloud_section_start */
 
   /* cloud_section_end */
+
+
+  .navigation2 {
+    display: none;
+  }
 
   .cloud_section {
     padding-top: 10px !important;
@@ -618,6 +748,7 @@
   }
 
   .choose-card {
+    height: auto !important;
     text-align: center;
     margin-bottom: 15px !important;
   }
@@ -766,6 +897,11 @@
   /* cloud_section_start */
 
   /* cloud_section_end */
+
+  .navigation2 {
+    display: none;
+  }
+
 
   .cloud_section {
     padding-top: 10px !important;
@@ -987,6 +1123,7 @@
   }
 
   .choose-card {
+    height: auto;
     text-align: center;
     margin-bottom: 15px !important;
   }
@@ -1241,9 +1378,6 @@
     font-size: 14px !important;
   }
 
-  :root {
-    --marquee-height: 10vh !important;
-  }
 
   .whatcando-card {
     padding: 15px 15px 30px !important;
@@ -1380,7 +1514,9 @@
 
   .cloud_section {
     padding-top: 15px !important;
+
   }
+
 
   .inner_page_side_main_heading {
     font-size: 23px !important;
@@ -1486,18 +1622,17 @@
     transform: translateX(-50%) !important;
   }
 
-
   /* .cloud-img {
-  width: 70% !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-}
+    width: 70% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  }
 
-.about-img {
-  width: 70% !important;
-  left: 50% !important;
-  transform: translateX(-50%) !important;
-} */
+  .about-img {
+    width: 70% !important;
+    left: 50% !important;
+    transform: translateX(-50%) !important;
+  } */
 
 
 }
