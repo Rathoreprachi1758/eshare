@@ -1282,63 +1282,6 @@ footer a {
 
 /* footer end */
 
-/* testimonial-section start */
-
-.testimonial-section .slider {
-  max-width: 100%;
-  display: flex;
-  background-color: transparent !important;
-}
-
-.testimonial-section .slider .testimonial-card {
-  border: 1px solid #f0f3f4;
-  background-color: #fff;
-  height: 240px;
-  padding: 20px 20px 10px;
-  border-radius: 10px;
-  flex: 1;
-  margin: 0 10px;
-}
-
-.testimonial-card-header {
-  display: flex;
-}
-
-.testimonial-card-header .testimonial-img {
-  max-width: 50px;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 300px;
-}
-
-.testimonial-details {
-  padding: 3px 0 0 15px;
-}
-
-.testimonial-details h5 {
-  font-size: 18px;
-  font-weight: 600;
-}
-
-.testimonial-details h6 {
-  font-size: 14px;
-  font-weight: 400;
-}
-
-.testimonial-card-body {
-  padding-top: 0px;
-  position: relative;
-}
-
-.quotes-img {
-  max-width: 50px;
-  object-fit: cover;
-  position: absolute;
-  right: 5%;
-  top: 5%;
-}
-
-/* testimonial-section end */
 
 /* owl control start */
 
@@ -5517,3 +5460,93 @@ textarea::placeholder {
 
 
 /*  */
+
+
+
+
+
+
+
+/* testimonial-section start */
+
+.testimonial-section .slider {
+  max-width: 100%;
+  display: flex;
+  background-color: transparent !important;
+}
+
+.testimonial-section .slider .testimonial-card {
+  border: 1px solid #f0f3f4;
+  background-color: #fff !important;
+  height: 240px;
+  padding: 20px 20px 10px;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.testimonial-section .slider2 {
+  max-width: 100%;
+  display: flex;
+  background-color: transparent !important;
+}
+
+.testimonial-section .slider2 .testimonial-card {
+  border: 1px solid #f0f3f4;
+  background-color: #fff !important;
+  height: 240px;
+  padding: 20px 20px 10px;
+  border-radius: 10px;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.testimonial-card-header {
+  display: flex;
+}
+
+.testimonial-card-header .testimonial-img {
+  max-width: 50px;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 300px;
+}
+
+.testimonial-details {
+  padding: 3px 0 0 15px;
+}
+
+.testimonial-details h5 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.testimonial-details h6 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.testimonial-card-body {
+  padding-top: 0px;
+  position: relative;
+}
+
+.quotes-img {
+  max-width: 50px;
+  object-fit: cover;
+  position: absolute;
+  right: 5%;
+  top: 5%;
+}
+
+
+.testimonial-section .owl-carousel .owl-nav button.owl-prev {
+  display: none !important;
+}
+
+.testimonial-section .owl-carousel .owl-nav button.owl-next {
+  display: none !important;
+}
+
+/* testimonial-section end */
+

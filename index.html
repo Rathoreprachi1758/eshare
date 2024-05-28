@@ -832,10 +832,9 @@
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="howwework-card-body">
                           <h3 class="small-title">How to use dashboard?</h3>
-                          <p class="para dark"></p>
-                          <p>
-                            Utilize the advanced cloud storage solution provided by eShare.ai to conveniently access a personalized dashboard for creating folders, uploading, storing, and sharing data. Mark frequently used files as favourites for quick and easy access and set permission levels to control who can view, download, or edit your shared files.
+                          <p class="para dark">                            Utilize the advanced cloud storage solution provided by eShare.ai to conveniently access a personalized dashboard for creating folders, uploading, storing, and sharing data. Mark frequently used files as favourites for quick and easy access and set permission levels to control who can view, download, or edit your shared files.
                           </p>
+                          
                           <a
                             class="link-btn"
                             data-bs-toggle="modal"
@@ -864,8 +863,8 @@
                           <h3 class="small-title">
                             How to share a file or folder?
                           </h3>
-                          <p class="para dark"></p>
-                          <p>
+                          
+                          <p class="para dark">
                             You can share files with eShare.ai users, either individually or in groups, using their username. You can also generate shareable links for your files, allowing anyone with the link access, even if they don't have an eShare.ai account. Additionally, you can add tags to categorize and organize your files.
                           </p>
                           <a
@@ -1181,8 +1180,10 @@
         </div>
       </section>
 
+     
       <section class="testimonial-section main-section mt-60 mb-40">
         <div class="main-heading">
+         
           <h1>Transformative Experiences with eShare.ai</h1>
         </div>
         <div class="slider owl-carousel">
@@ -1544,7 +1545,11 @@
             </div>
           </div>
 
-          <div class="testimonial-card">
+         
+        </div>
+
+        <div class="slider2 owl-carousel mt-3">   
+         <div class="testimonial-card">
             <div class="testimonial-card-header">
               <img
                 src="assets/images/testimonial/client_logo15.png"
@@ -1671,7 +1676,7 @@
                 professional.
               </p>
             </div>
-          </div>
+          </div> 
 
           <div class="testimonial-card">
             <div class="testimonial-card-header">
@@ -1825,7 +1830,16 @@
                 developer.
               </p>
             </div>
-          </div>
+          </div> 
+         
+          
+
+          
+
+
+
+          
+
         </div>
       </section>
 
@@ -1991,7 +2005,7 @@
         </div>
       </section>
 
-      <section class="contact-section mt-60 mb-60">
+      <section class="contact-section main mt-60 mb-60">
         <div class="container-fluid">
           <div class="row">
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
@@ -4339,15 +4353,18 @@
         }, 4000);
       };
     </script>
-    <script>
-      (function ($) {
-        var toggle = $(".nav-toggle");
 
-        toggle.on("click", function (e) {
-          $(this).toggleClass("opened");
-        });
-      })(jQuery);
-    </script>
+
+<script>
+  (function ($) {
+    var toggle = $(".nav-toggle");
+
+    toggle.on("click", function (e) {
+      $(this).toggleClass("opened");
+    });
+  })(jQuery);
+</script>
+ 
     <script>
       const root = document.documentElement;
       const marqueeElementsDisplayed = getComputedStyle(root).getPropertyValue(
@@ -4504,8 +4521,71 @@
   });
 </script>
 
+
+<script>
+  $(".slider2").owlCarousel({
+    loop: true,
+    mouseDrag: true,
+    autoplay: true,
+  
+
+    autoplayTimeout: 4000,
+    autoplayHoverPause: false,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+    
+      },
+      600: {
+        items: 2,
+        nav: true,
+       
+      },
+      1000: {
+        items: 3,
+        nav: true,
+       
+      },
+    },
+  });
+</script>
+
+
+
+<script>
+  $(".slider").owlCarousel({
+    loop: true,
+    mouseDrag: true,
+    autoplay: true,
+    autoplayTimeout: 3000,
+    autoplayHoverPause: false,
+    dots: true,
+    responsive: {
+      0: {
+        items: 1,
+        nav: true,
+       
+      },
+      600: {
+        items: 2,
+        nav: true,
+      
+      },
+      1000: {
+        items: 3,
+        nav: true,
+    
+      },
+    },
+  });
+</script>
+
   </body>
 </html>
+
+
 
 
 
