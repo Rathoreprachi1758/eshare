@@ -5557,3 +5557,93 @@ textarea::placeholder {
 }
 
 /* testimonial-section end */
+
+
+/* vedio_new_section_start */
+
+
+.vedio_main_background_color {
+  background-color: #fff !important;
+}
+
+
+
+
+.video-main2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 0px !important;
+  position: relative;
+
+}
+
+.vedio_main_heading_width {
+  max-width: 100%;
+  padding-top: 20px !important;
+
+}
+
+.collaboration-about-main-para {
+  padding-top: 0px !important;
+}
+
+.collaborative-para-text-bold {
+  font-size: 18px !important;
+  color: #063a6b !important
+}
+
+/* vedio_new_section_start_end */
+
+
+
+
+/*************************************************** modal start for new vedio*******************************************/
+
+
+.modal {
+  position: fixed;
+  z-index: 10000000;
+  top: 18%;
+  --bs-modal-width: 800px;
+  overflow-y: hidden;
+}
+
+.modal-backdrop {
+  --bs-backdrop-zindex: 0;
+}
+
+.modal-header {
+  border-bottom: none;
+  padding: 0;
+}
+
+.modal-body {
+  padding: 0;
+  border-radius: 30px;
+}
+
+iframe {
+  border-radius: 30px;
+}
+
+.modal-content {
+  pointer-events: auto;
+  background-color: transparent;
+  background-clip: padding-box;
+  border: none;
+  border-radius: 30px;
+  outline: 0;
+}
+
+.btn-close {
+  filter: brightness(0) invert(1);
+  opacity: 1;
+}
+
+.btn-close:focus {
+  border: none;
+  box-shadow: none;
+  outline: none;
+}
+
+/************************************************ modal end for new vedio ************************************/
