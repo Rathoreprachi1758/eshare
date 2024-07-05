@@ -35,7 +35,7 @@
       >
         <div class="container-fluid">
           <a class="navbar-brand" href="index.html"
-            ><img src="assets/images/logo/eshaare_main_logo.webp" alt="eShare Data Lugguage Partner Main Image"
+            ><img src="assets/images/logo/eshaare_main_logo.webp" alt="eShare Data Lugguage Partner Main Image"  loading="lazy"
           /></a>
           <button
             class="navbar-toggler"
@@ -383,11 +383,11 @@
 
             <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
               <div class="content-img-area">
-                <a href="https://www.youtube.com/watch?v=SDYhIrQcYeA">
-                  <video  autoplay loop muted class="video-main2">
-                    <source src="assets/images/video/vedio_about_main.mp4" />
-                  </video>
-                </a>
+            
+
+                
+                 <a href="https://www.youtube.com/watch?v=SDYhIrQcYeA" target="_blank"><img src="assets/images/video/thumb01.jpg" class="eshare-new-vedio-images"  loading="lazy"/></a>
+          
               </div>
              
             </div>
@@ -780,9 +780,13 @@
                 >
                   <a href="#" class="link-btn learn_text_color"
                     >Explore All Feature<span
-                      class="bi bi-arrow-right ms-2"
+                      class="bi bi-arrow-down ms-2 fa-100px eshareExplore-All-Feature-icons" 
                     ></span
                   ></a>
+
+            
+                
+               
                 </div>
               </ul>
               <a href="contentmanagement.html" class="white-btn">Learn More</a>
@@ -812,7 +816,9 @@
                     <div class="row">
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="howwework-card-header">
-                          <img src="assets/images/explore/howwork1.webp" />
+                         <a href="https://www.youtube.com/embed/H9k12HPq9zM" target="_blank">
+                          <img src="assets/images/explore/howwork0001.png" loading="lazy"/>
+                         </a>
                         </div>
                       </div>
 
@@ -843,7 +849,7 @@
                     <div class="row">
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="howwework-card-header">
-                          <img src="assets/images/explore/howwork2.webp" />
+                          <img src="assets/images/explore/howwork2.webp"  loading="lazy"/>
                         </div>
                       </div>
 
@@ -872,13 +878,20 @@
                     <div class="row">
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="howwework-card-header">
-                          <img src="assets/images/explore/howwork4.webp" />
+                          <a href="https://www.youtube.com/embed/LV-8GL6xCzI" target="_blank">
+                            <img src="assets/images/explore/Thumnail.jpg" loading="lazy"/>
+                           </a>
+                         
                         </div>
+
+                       
                       </div>
 
                       <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                         <div class="howwework-card-body">
-                          <h3 class="small-title">How to use?</h3>
+                          <!-- <h3 class="small-title">How to use?</h3> -->
+                          <h3 class="small-title">How do I upload files to eShare.ai?</h3>
+                         
                           <p class="para dark">
                             Simply Sign in with your eShare.ai username and password to access your files on a PC, mobile device, or the web. Upload files and browse all your files uploaded there, including documents, images, videos, and more. Find files easily using keywords, file type, size, or upload date filters.
                           </p>
@@ -1027,7 +1040,7 @@
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/ay1nbWeQSec"
+                  src="https://www.youtube.com/embed/H9k12HPq9zM"
                   title="eShare.ai - Your Data Luggage Partner #datastorage #filesharing #cloudstorage"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -1093,7 +1106,7 @@
                 <iframe
                   width="100%"
                   height="450"
-                  src="https://www.youtube.com/embed/T7s-Ly6d_8s"
+                  src="https://www.youtube.com/embed/LV-8GL6xCzI"
                   title="How to use eShare.ai? #cloudstorage #filesharing #datastorage"
                   frameborder="0"
                   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -4400,30 +4413,6 @@
 
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
 
-    <script>
-      $(".slider").owlCarousel({
-        loop: true,
-        mouseDrag: true,
-        autoplay: true,
-        autoplayTimeout: 3000,
-        autoplayHoverPause: true,
-        dots: true,
-        responsive: {
-          0: {
-            items: 1,
-            nav: true,
-          },
-          600: {
-            items: 2,
-            nav: true,
-          },
-          1000: {
-            items: 3,
-            nav: true,
-          },
-        },
-      });
-    </script>
 
     <script>
       var slideIndex = 1;
@@ -4463,7 +4452,6 @@
       };
     </script>
 
-
 <script>
   (function ($) {
     var toggle = $(".nav-toggle");
@@ -4490,6 +4478,8 @@
         marqueeContent.appendChild(marqueeContent.children[i].cloneNode(true));
       }
     </script>
+
+
     <script>
       var swiper = new Swiper(".slide-content", {
         slidesPerView: 3,
@@ -4519,6 +4509,8 @@
         },
       });
     </script>
+
+
     <script>
       // Define an array of strings to be displayed and erased
       const textArray = [
@@ -4568,6 +4560,8 @@
       // Set an interval to call the typeJs function
       setInterval(typeJs, 80); // You can adjust the animation speed as needed
     </script>
+
+
     <script>
       function myFunction() {
         var x = document.getElementById("myInput");
@@ -4611,7 +4605,7 @@
     mouseDrag: true,
     autoplay: true,
     autoplayTimeout: 3000,
-    autoplayHoverPause: false,
+    autoplayHoverPause: true,
     dots: true,
     responsive: {
       0: {
@@ -4628,7 +4622,11 @@
       },
     },
   });
-</script>
+</script>  
+
+
+
+
 
 
 <script>
@@ -4636,10 +4634,8 @@
     loop: true,
     mouseDrag: true,
     autoplay: true,
-  
-
     autoplayTimeout: 4000,
-    autoplayHoverPause: false,
+    autoplayHoverPause: true,
     dots: true,
     responsive: {
       0: {
@@ -4663,13 +4659,13 @@
 
 
 
-<script>
+ <script>
   $(".slider").owlCarousel({
     loop: true,
     mouseDrag: true,
     autoplay: true,
     autoplayTimeout: 3000,
-    autoplayHoverPause: false,
+    autoplayHoverPause: true,
     dots: true,
     responsive: {
       0: {
@@ -4689,7 +4685,7 @@
       },
     },
   });
-</script>
+</script> 
 
   </body>
 </html>

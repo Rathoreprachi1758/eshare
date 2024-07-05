@@ -1908,7 +1908,7 @@ footer a {
   position: fixed;
   z-index: 10000000;
   top: 18%;
-  --bs-modal-width: 700px;
+  --bs-modal-width: 850px;
   overflow-y: hidden;
 }
 
@@ -5381,7 +5381,7 @@ textarea::placeholder {
 }
 
 .table-maxtrix-about1 {
-  background-color: #f9fafb;
+  background-color: #063a6b;
   border-radius: 50px;
 }
 
@@ -5514,7 +5514,7 @@ textarea::placeholder {
 }
 
 .testimonial-card-header .testimonial-img {
-  max-width: 50px;
+  max-width: 60px;
   height: 100%;
   object-fit: cover;
   border-radius: 300px;
@@ -5579,7 +5579,7 @@ textarea::placeholder {
 
 .vedio_main_heading_width {
   max-width: 100%;
-  padding-top: 20px !important;
+  padding-top: 0px !important;
 
 }
 
@@ -5654,3 +5654,71 @@ iframe {
 }
 
 /************************************************ modal end for new vedio ************************************/
+
+
+/* eshare-new-vedio-images-new */
+
+.eshare-new-vedio-images {
+  width: 100%;
+  height: auto;
+  position: relative;
+  border-radius: 10px;
+  padding-top: 5px;
+
+}
+
+/* eshare-new-vedio-images-new-end */
+
+
+/*  Feature-icons */
+
+.eshareExplore-All-Feature-icons {
+  display: inline-block;
+  font-size: 20px;
+  text-align: center;
+  margin: 0 auto;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+  top: 0;
+  animation: bounce 0.5s ease-out infinite alternate;
+  text-decoration: none;
+
+}
+
+
+
+
+
+.eshareExplore-All-Feature-icons:hover {
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+@keyframes bounce {
+  0% {
+    top: 0;
+
+  }
+
+  100% {
+    top: 8px;
+
+  }
+}
+
+
+/* comparisonatable-font-weight-text-start */
+
+
+.comparisonatable-font-weight-text {
+  font-weight: 900;
+}
+
+.Collaborate-easily-table-main-btn {
+  background-color: #fff;
+  color: #063a6b !important;
+}
+
+
+/* comparisonatable-font-weight-text-end */
