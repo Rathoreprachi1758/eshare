@@ -8,6 +8,8 @@
   src: url(assets/font/AvenirLTStd-Book.otf);
 }
 
+
+
 body::-webkit-scrollbar {
   width: 5px;
 }
@@ -451,10 +453,11 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   font-size: 16px;
   font-weight: 600;
-  color: #063a6b !important;
-  background-color: #fff !important;
+  color: #000 !important;
+  background-color: #87cefa !important;
   border: none;
   text-align: center !important;
+ 
 }
 
 .login-btn.sign-btn {
