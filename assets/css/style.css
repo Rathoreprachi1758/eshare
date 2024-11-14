@@ -425,13 +425,13 @@ body::-webkit-scrollbar-thumb {
 
 .form-part .form-control:focus {
   outline: none;
-  border: 1px solid #c3c5c5 !important;
+  border: 1px solid #b8b9b9 !important;
   box-shadow: none;
 }
 
 .form-part .form-select:focus {
   outline: none;
-  border: 1px solid #c3c5c5 !important;
+  border: 1px solid #b8b9b9 !important;
   box-shadow: none;
 }
 
