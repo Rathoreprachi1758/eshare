@@ -6169,3 +6169,121 @@ iframe {
 }
 
 /* new-code-here */
+
+
+
+
+/* enq-start */
+
+
+
+.eshare-enq-side-btn-area {
+  position: fixed !important;
+  top: 50%;
+  transform: translateY(-50%);
+  left: -48px;
+  z-index: 1000000000000000000000;
+}
+
+.eshare-enq-main-btn {
+  position: relative;
+  background-color: #fff;
+  color: #063a6b;
+  padding: 8px 30px;
+  border-radius: 20px 20px 0 0;
+  display: inline-block;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  cursor: pointer;
+  border: 2px solid #063a6b;
+  transform: rotate(90deg);
+}
+
+.eshare-enq-side-box-area {
+  position: fixed !important;
+  top: 50%;
+  transform: translate(-150%, -50%);
+  left: 0px;
+  max-width: 400px;
+  width: 100%;
+  transition: all 0.2s ease;
+  z-index: 1000000000000000000000000000000;
+}
+
+.eshare-enq-side-main-box {
+  background-color: #fff;
+  border-radius: 10px;
+  position: relative;
+  padding: 20px 20px 30px;
+  width: 100%;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.eshare-enq-input-box {
+  height: 48px !important;
+  border-radius: 10px !important;
+  border: 1px solid #dee2e6 !important;
+  font-size: 16px !important;
+  color: #7c7c7c !important;
+}
+
+.eshare-enq-input-box:focus {
+  outline: none !important;
+  border: 1px solid #063a6b !important;
+  box-shadow: none !important;
+}
+
+.eshare-enq-input-box#eshare-enq-input-box-left-radius {
+  border-radius: 10px 0 0 10px !important;
+}
+
+.eshare-enq-input-box#eshare-enq-input-box-right-radius {
+  border-radius: 0 10px 10px 0 !important;
+}
+
+.eshare-enq-side-main-box input::placeholder {
+  font-size: 16px !important;
+  color: #c9c9c9 !important;
+}
+
+.eshare-enq-submit-btn {
+  position: relative;
+  background-color: #063a6b !important;
+  padding: 12px 40px !important;
+  color: #fff !important;
+  text-align: center;
+  border-radius: 10px !important;
+  border: none !important;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.eshare-enq-submit-btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+}
+
+.eshare-enq-side-main-title-flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.eshare-enq-x {
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+}
+
+.eshare-enq-side-main-box-title {
+  font-size: 22px;
+  color: #063a6b;
+}
+
+
+
+
+/* enq-end */
