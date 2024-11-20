@@ -6181,15 +6181,19 @@ iframe {
   position: fixed !important;
   top: 50%;
   transform: translateY(-50%);
-  left: -48px;
+  left: -0;
   z-index: 1000000000000000000000;
 }
 
 .eshare-enq-main-btn {
+  margin-left: -36px;
   position: relative;
   background-color: #fff;
   color: #063a6b;
-  padding: 8px 30px;
+  padding: 5px 5px;
+  text-align: center;
+  width: 130px;
+  height: 40px;
   border-radius: 20px 20px 0 0;
   display: inline-block;
   font-size: 16px;
@@ -6282,8 +6286,6 @@ iframe {
   font-size: 22px;
   color: #063a6b;
 }
-
-
 
 
 /* enq-end */
