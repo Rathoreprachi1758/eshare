@@ -335,15 +335,32 @@
             </div>
           </button>
           <div
-            class="collapse navbar-collapse justify-content-end"
+            class="collapse navbar-collapse  justify-content-end"
             id="leadUIMainNav"
           >
-            <ul class="navbar-nav ml-auto mt-lg-0 mob-none">
+            <ul class="navbar-nav ml-auto mt-lg-0  align-items-center mob-none">
               <li class="nav-item nav-side-space">
                 <a class="nav-link" href="whyeshareai.html">Why eshare.ai</a>
               </li>
+
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-target="dropdown" aria-haspopup="true" aria-expanded="false">
+               Get app
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="App.html">Desktop app</a>
+                  <a class="dropdown-item" href="mobileapp.html">Mobile app</a>
+                </div>
+              </li>
+
+              <li class="nav-item dropdown">
+                <div class="change_langOuter select-dropdown">
+                    <div id="google_translate_element"></div>
+                </div>
+            </li>
+
               <!-- <li class="nav-item nav-top-space">
-                <div class="select-dropdown">
+                <div class="select-dropdown change_langOuter">
                   <select>
                     <option selected disabled>Select Language</option>
                     <option value="af">Afrikaans</option>
@@ -481,21 +498,13 @@
                     <option value="zu">Zulu</option>
                   </select>
                 </div>
-              </li>  -->
+              </li>   -->
 
 
 
 
    
-                <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-target="dropdown" aria-haspopup="true" aria-expanded="false">
-                 Get app
-                  </a>
-                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="App.html">Desktop app</a>
-                    <a class="dropdown-item" href="mobileapp.html">Mobile app</a>
-                  </div>
-                </li>
+          
 
          
 
@@ -5106,9 +5115,30 @@
   });
 </script> 
 
+<!-- here-start-google -->
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+          {pageLanguage: 'en'},
+          'google_translate_element'
+      );
+      }
+  </script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script> -->
+ 
+
+
+
   </body>
 </html>
-
 
 
 

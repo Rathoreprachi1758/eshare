@@ -48,7 +48,7 @@
             class="collapse navbar-collapse justify-content-end"
             id="leadUIMainNav"
           >
-            <ul class="navbar-nav ml-auto mt-lg-0 mob-none">
+            <ul class="navbar-nav ml-auto align-items-center mt-lg-0 mob-none">
               <li class="nav-item nav-side-space">
                 <a
                   class="nav-link"
@@ -57,8 +57,13 @@
                   >Why eshare.ai</a
                 >
               </li>
+              <li class="nav-item dropdown">
+                <div class="change_langOuter select-dropdown">
+                    <div id="google_translate_element"></div>
+                </div>
+            </li>
 
-              <li class="nav-item nav-top-space">
+              <!-- <li class="nav-item nav-top-space">
                 <div class="select-dropdown">
                   <select>
                     <option selected disabled>Select Language</option>
@@ -197,7 +202,7 @@
                     <option value="zu">Zulu</option>
                   </select>
                 </div>
-              </li>
+              </li> -->
               <li class="nav-item nav-side-space">
                 <a
                   class="nav-link"
@@ -543,5 +548,25 @@
         }
       }
     </script>
+
+
+<!-- here-start-google -->
+
+<script type="text/javascript">
+  function googleTranslateElementInit() {
+      new google.translate.TranslateElement({pageLanguage: 'en'}, 'google_translate_element');
+  }
+</script>
+<script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<!-- <script type="text/javascript">
+      function googleTranslateElementInit() {
+          new google.translate.TranslateElement(
+          {pageLanguage: 'en'},
+          'google_translate_element'
+      );
+      }
+  </script>
+<script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+  </script> -->
   </body>
 </html>

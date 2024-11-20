@@ -120,13 +120,17 @@ body::-webkit-scrollbar-thumb {
   box-shadow: none;
 }
 
+.navigation li {
+  padding: 0 0 0 40px;
+}
+
 .navigation .nav-top-space {
   padding: 8px 0 0 0;
 }
 
-.navigation .nav-side-space {
+/* .navigation .nav-side-space {
   margin: 8px 20px 0 0;
-}
+} */
 
 .navigation .nav-link {
   font-weight: 600;
@@ -183,7 +187,7 @@ body::-webkit-scrollbar-thumb {
 
 .select-dropdown select {
   color: #063a6b !important;
-  margin: 8px 20px 0 0;
+  /* margin: 8px 20px 0 0; */
   border: none;
   text-align: start;
   position: relative;
@@ -194,6 +198,7 @@ body::-webkit-scrollbar-thumb {
   appearance: none;
   letter-spacing: 1px;
   font-weight: 600;
+  width: 140px !important;
   font-size: 16px;
   border: none;
 }
@@ -209,8 +214,9 @@ body::-webkit-scrollbar-thumb {
   content: " ";
   position: absolute;
   top: 50%;
+  transform: translateY(-50%);
   margin-top: 0px;
-  right: 22%;
+  right: 0%;
   width: 0;
   height: 0;
   border-left: 5px solid transparent;
@@ -219,11 +225,12 @@ body::-webkit-scrollbar-thumb {
 }
 
 .select-dropdown option {
-  font-size: 16px;
-  background: #fff !important;
+  font-size: 14px;
+  background: transparent !important;
   color: #063a6b !important;
   border: none;
-  width: 100%;
+  max-width: 50px !important;
+  width: 50px !important;
 }
 
 /* select_dropdown end */
@@ -6186,7 +6193,7 @@ iframe {
 }
 
 .eshare-enq-main-btn {
-  margin-left: -36px;
+  margin-left: -46px;
   position: relative;
   background-color: #fff;
   color: #063a6b;
@@ -6289,3 +6296,125 @@ iframe {
 
 
 /* enq-end */
+
+
+/* herefor google-start */
+
+.change_langOuter {
+  /* border-radius: 4px;
+background-color: #fff;
+border: 1px solid #000; */
+  /* width: 120px; */
+  color: #000;
+  padding: 1px 3px;
+  /* font-family: Arial; */
+  /* min-height: 25px; */
+  /* margin-left: 20px;
+  margin-top: 15px;
+  margin-right: 18px; */
+  font-size: 16px !important;
+}
+
+.goog-te-combo {
+  font-size: 16px !important;
+  font-weight: 600;
+  position: relative;
+  letter-spacing: 1px;
+  color: #063a6b !important;
+  font-family: "financier_displaymedium" !important;
+}
+
+.changeLang:focus {
+  outline: none;
+  box-shadow: none;
+}
+
+.change_langOuter span {
+  display: none !important;
+}
+
+.change_langOuter .skiptranslate {
+  font-size: 0px !important;
+}
+
+.change_langOuter .goog-te-combo {
+  font-size: 10px;
+}
+
+.skiptranslate iframe {
+  display: none !important;
+}
+
+.VIpgJd-ZVi9od-aZ2wEe-wOHMyf {
+  display: none !important;
+}
+
+.ui-helper-hidden-accessible {
+  display: none !important;
+}
+
+/* Hide original text when hovering over translated text */
+body .goog-te-banner-frame,
+body .goog-te-spinner-pos {
+  display: none !important;
+  /* Hide unwanted Google Translate banners and spinners */
+}
+
+body .goog-te-gadget {
+  font-size: 0;
+  /* Optional: Adjust Google Translate dropdown size */
+}
+
+.goog-te-gadget select {
+  font-size: 15-poinst !
+}
+
+/* Hide the original text tooltip */
+.goog-tooltip {
+  display: none !important;
+  /* Hides the tooltip */
+}
+
+.goog-tooltip:hover {
+  display: none !important;
+}
+
+#goog-gt-original-text,
+#goog-gt-tt {
+  display: none !important;
+}
+
+/* Prevent the Google Translate iframe hover effect */
+.goog-te-balloon-frame {
+  display: none !important;
+}
+
+.VIpgJd-yAWNEb-VIpgJd-fmcmS-sn54Q {
+  background-color: transparent !important;
+  /* Set background to transparent */
+  box-shadow: none !important;
+  /* Remove the shadow */
+  box-sizing: unset !important;
+  /* Reset box-sizing */
+  -webkit-box-sizing: unset !important;
+  /* Reset WebKit-specific box-sizing */
+  -moz-box-sizing: unset !important;
+  /* Reset Mozilla-specific box-sizing */
+  position: unset !important;
+  /* Reset position */
+}
+
+.goog-te-gadget .goog-te-combo {
+  margin: 0px 0px !important;
+}
+
+
+/* herefor google-end */
+
+
+.navigation .dropdown-toggle::after {
+  /* transform: rotate(-90deg); */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
