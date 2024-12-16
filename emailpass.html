@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no">
+    <title>e-Share</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.cdnfonts.com/css/calibri-light" rel="stylesheet">
+</head>
+
+<style>
+    .main-email-password-bg{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100% !important;
+        height: 98vh !important;
+    
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    .bg-map-emailpass{
+        position: absolute;
+        max-width: 100%;
+        opacity: 0.4;
+        height: 100%;
+        z-index: 0;
+    }
+</style>
+<body>
+    <section class="main-email-password-bg">
+        <img src="assets/images/other/map_mask.webp" class="bg-map-emailpass">
+    <table width="" border="0" cellspacing="0" cellpadding="0" align="center" style="background:#fffff9; overflow: hidden; margin-top: 0px; margin-bottom: 0px; z-index: 10000;
+box-shadow: 0px 2px 5px 0px rgba(133, 133, 133, 0.10); width: 100%;max-width: 650px;border-radius: 20px;">
+        <tbody>
+            <tr>
+                <td  class="temp_logo"  height="60" valign="center" align="start" style=" padding: 30px 20px 30px; background: #fff;border-bottom: 1px solid #e0dee0; ">
+                    <span style="display: block; "><a href="#"><img src="${process.env.PORTAL_URL}assets/images/email/logo.png" alt="Logo Here" style="display: block; width: 160px;" /></a></span>
+                </td>
+            </tr>
+            <tr>
+                <td class="email_container" style=" padding: 60px 40px; background:  #fff; background-size: 85%; min-height: 500px;">
+                    <table style="width: 100%;" border="0" cellspacing="0" cellpadding="0" align="center">
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <h3 style="font-weight: bold; font-size: 22px; padding: 10px 0px 25px; margin: 0px;">Dear '${name}'</h3>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td>
+                                    <div style="font-size: 17px; padding: 0px 0px 15px; margin: 0px; ">Your eShare.ai account password has been changed successfully.</div>
+                                </td>
+                            </tr> 
+                            <tr>
+                                <td>
+                                    <div style="font-size: 17px; padding: 0px 0px 30px; margin: 0px; ">Please remember to use your new password to access your eShare.ai account
+                                        in future.</div>
+                                </td>
+                            </tr>  
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+            <!-- <tr>
+                <td style="padding: 0px 20px;">
+                    <div style="height: 1px; background: #a09fa0; max-width: 400px; margin: auto;"></div>
+                </td>
+            </tr> -->
+            <tr>
+                <td>
+                    <table class="footerTable" style=" padding: 30px 40px; width: 100%;background-color: #063a6b;border-radius: 20px;">
+
+                        <tbody>
+                            <tr>
+                                <td  class="temp_logo"  height="60" valign="center" align="center" >
+                                    <span style="display: block; "><a href="#"><img src="${process.env.PORTAL_URL}assets/images/email/logo.png" alt="Logo Here" style="display: block; width: 160px;" /></a></span>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <div class="pages_link" style="display: flex; justify-content: center; flex-wrap: wrap; align-items: center; padding-bottom: 20px;">
+                                        <a href="https://dev.eshare.ai/terms-conditions" class="" style="margin: 0px 5px; color: #fff; text-decoration: none;">Terms of use</a> <span style="margin: 0 10px;color: #fff;">|</span>
+                                        <a href="#" class="" style="margin: 0px 5px; color: #fff; text-decoration: none;">Privacy Policy</a> <span style="margin: 0 10px;color: #fff;">|</span>
+                                        <a href="#" class="" style="margin: 0px 5px; color: #fff; text-decoration: none;">Cookie Policy</a> <span style="margin: 0 10px;color: #fff;">|</span>
+                                        <a href="${process.env.PORTAL_URL}unsubscribe" class="" style="margin: 0px 5px; color: #fff; text-decoration: none;">Unsubscribe</a>
+                                    </div>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                 <div class="social" style="display: flex; justify-content: center; flex-wrap: wrap; align-items: center; padding-bottom: 20px;">
+                                     <a href="https://www.facebook.com/people/eShareai/100093398859671" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/fb.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                     <a href="https://www.instagram.com/eshare.ai" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/insta.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                     <a href="https://twitter.com/EshareAi" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/tw.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                     <a href="https://www.linkedin.com/company/eshare-ai" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/in.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                     <a href="https://www.youtube.com/channel/UCQKb3RNei7_zk41DRp8SZVQ" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/tube.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                     <a href="https://blogs.eshare.ai" class="" style="margin: 0px 15px;"><img src="${process.env.PORTAL_URL}assets/images/email/blog.png" style="display: block; width: 20px; padding-right:10px" alt="#" /></a>
+                                 </div>
+                             </td>
+                             </tr>
+
+                             
+
+                            <tr >
+                                <td style="border-top: 1px solid #fff;"><div style="font-size: 16px; padding: 20px 0px 10px; margin: 0px; text-align: center;color: #fff;">Copyright © 2022  eShare.ai</div></td>
+                            </tr>
+                            <tr>
+                                <td><div style="font-size: 16px; padding: 0px 0px 5px; margin: 0px; text-align: center;color: #fff;">All Rights Reserved, Bizionic Technologies Pvt Ltd.</div></td>
+                            </tr>
+                            
+                           
+                        </tbody>
+                    </table>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+</section>
+    <style type="text/css">
+        * {
+                box-sizing: border-box;
+            } 
+    @media only screen and (min-width: 300px) and (max-width: 767px) {
+        body {
+            padding: 20px !important;
+        } 
+        table { width: 100% !important; margin: 0px !important;}
+        table tbody { width: 100% !important;}
+        table  table { width: auto !important; }
+        .temp_logo a img {width: 120px !important;}
+        .email_container {padding: 30px 25px !important;}
+        .footerTable {padding: 30px 25px !important;}
+        .pages_link { padding-bottom: 0px !important;}
+        .social a { margin: 0px 8px !important;}
+        .temp_logo { padding: 30px 25px 30px !important; }
+    }
+</style>
+</body>
+</html>
