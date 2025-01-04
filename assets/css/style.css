@@ -882,12 +882,12 @@ body::-webkit-scrollbar-thumb {
 
 .dsk-btn {
   border-radius: 100px;
-  padding: 15px 40px;
+  padding: 25px 70px;
   font-weight: 500;
   color: #fff !important;
   background-color: #063a6b;
   border: none !important;
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
   width: 100% !important;
   max-width: 100% !important;
@@ -910,50 +910,48 @@ body::-webkit-scrollbar-thumb {
 }
 
 .os-img-main-icons {
-  max-width: 22px;
+  max-width: 30px;
   position: relative;
-  right: -10px;
+  right: 10px;
   object-fit: contain;
+  margin-top: -2px;
 }
 
 .os-img-main-icons2 {
-  max-width: 27px;
+  max-width: 34px;
   position: relative;
-  right: -10px;
+  right: 10px;
   object-fit: contain;
+  margin-top: -2px;
+
 }
 
 
 .os-img-main-icons3 {
-  max-width: 26px;
+  max-width: 31px;
   position: relative;
-  right: -10px;
+  right: 10px;
   object-fit: contain;
+  margin-top: -5px;
 }
 
+
+
 .dsk-btn-padding-part {
-  padding: 15px 52px !important;
+  padding: 25px 81px !important;
 }
 
 .dsk-btn-padding-part2 {
-  padding: 15px 55px !important;
+  padding: 25px 84px !important;
 }
 
 @media (max-width: 767px) {
-
-  /* .download-main-btn-flex {
-    display: flex !important;
-    justify-content: center !important;
-  } */
-
 
   .dsk-area {
     display: flex;
     justify-content: center !important;
     text-align: center !important;
   }
-
-
 
 }
 
@@ -963,6 +961,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* today */
+
+
 
 .feature-card ul {
   list-style: none;
@@ -6519,3 +6519,119 @@ body .goog-te-gadget {
   top: 50%;
   transform: translateY(-50%);
 }
+
+
+
+/* newone-here-start */
+
+
+
+.wnd-download-btn-leftside-main-part {
+  position: relative;
+  max-width: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.wnd-download-main-btn {
+  position: relative;
+  padding: 18px 30px;
+  background-color: 300px;
+  background-color: #063A6B;
+  border-radius: 300px;
+  border: none;
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  font-size: 18px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.wnd-download-main-btn:hover {
+  color: #fff !important;
+}
+
+
+.Also-Available-para-text {
+  color: #4c546a !important;
+}
+
+
+.wnd-download-main-btn img {
+  max-width: 26px;
+  filter: brightness(0) invert(1);
+  margin-right: 15px;
+}
+
+.wnd-download-alter-link {
+  text-decoration: underline !important;
+  color: #063A6B;
+}
+
+.wnd-download-alter-link:hover {
+  color: #063A6B;
+}
+
+/* @media (max-width:767px) {} */
+
+
+@media (max-width: 767px) {
+
+  .wnd-download-btn-leftside-main-part {
+    display: flex !important;
+    justify-content: center !important;
+    max-width: 100% !important;
+  }
+
+}
+
+@media (min-width: 767px) and (max-width: 1200px) {
+
+  .wnd-download-btn-leftside-main-part {
+    display: flex !important;
+    justify-content: center !important;
+    max-width: 100% !important;
+  }
+
+}
+
+@media (min-width: 992px) and (max-width: 1200px) {
+
+  .desktop-app-banner-txt-area {
+
+    position: relative !important;
+    top: 0% !important;
+    text-align: center !important;
+    width: 100%;
+    transform: translateY(-0%) !important;
+    margin-bottom: 40px !important;
+  }
+
+  .mobile-app-center-para-new {
+    text-align: center !important;
+  }
+
+
+
+}
+
+
+
+
+/* @media (min-width:767px) and (max-width:991px) {
+
+  .wnd-download-btn-leftside-main-part {
+    display: flex !important;
+    justify-content: center !important;
+  }
+
+
+
+} */
+
+
+
+/* newone-here-end */
