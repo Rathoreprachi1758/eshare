@@ -368,6 +368,8 @@ body::-webkit-scrollbar-thumb {
 .google_icon_image {
   max-width: 16px;
   position: relative;
+
+
 }
 
 .signup_human_box {
@@ -541,8 +543,8 @@ body::-webkit-scrollbar-thumb {
 
 .continue-with-icon {
   position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
+  top: 48%;
+  transform: translateY(-52%);
   left: 5%;
 }
 
@@ -660,7 +662,6 @@ body::-webkit-scrollbar-thumb {
 
 .marquee-content li img {
   max-width: 120px !important;
-  width: 100%;
   height: 30px !important;
   object-fit: contain !important;
   filter: grayscale(100%) !important;
@@ -695,6 +696,14 @@ body::-webkit-scrollbar-thumb {
   .marquee:before,
   .marquee:after {
     width: 5rem;
+  }
+}
+
+@media (min-width: 1600px) {
+  :root {
+    --marquee-width: 100%;
+    --marquee-height: auto !important;
+    --marquee-elements-displayed: 13 !important;
   }
 }
 
@@ -994,6 +1003,7 @@ body::-webkit-scrollbar-thumb {
   position: relative;
   margin-right: 10px;
   width: 30px !important;
+  height: 30px !important;
   font-weight: 900 !important;
 }
 
@@ -1372,8 +1382,10 @@ footer a {
 
 .foot-available2 img {
   margin-top: -5px;
-  max-width: 100%;
+  max-width: 200px;
+  height: 40px !important;
   margin-left: 40px;
+
 
 }
 
@@ -1626,7 +1638,7 @@ footer a {
 
 .management_part_main_img {
   width: 100% !important;
-  height: auto;
+  height: auto !important;
   position: relative;
   border-radius: 10px;
 }
@@ -2307,7 +2319,7 @@ footer a {
 .continue-with-btn-anchor {
   width: 100%;
   text-decoration: none;
-  line-height: 45px;
+  line-height: 38px;
   display: flex;
   justify-content: center;
   position: relative;
@@ -2880,9 +2892,10 @@ footer a {
 }
 
 .plan-save-box {
-  border: 1px solid #009dff;
+  border: 1px solid #009DFF;
   padding: 2px 5px;
-  color: #009dff;
+  color: #009DFF;
+
 }
 
 .plan-heading-btn {
@@ -2960,7 +2973,7 @@ footer a {
 }
 
 .plan-card-top-heading {
-  color: #009dff;
+  color: #2862AD;
   font-size: 14px;
   text-transform: uppercase;
 }
@@ -2993,11 +3006,11 @@ footer a {
 .plan-submit-btn {
   width: 100%;
   padding: 10px 30px;
-  border: 1.5px solid #009dff;
+  border: 1.5px solid #2862AD;
   text-align: center;
   background-color: transparent;
   border-radius: 10px;
-  color: #009dff;
+  color: #2862AD;
 }
 
 .plan-submit-btn:hover {
